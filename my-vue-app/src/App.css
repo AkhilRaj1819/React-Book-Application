@@ -1,14 +1,34 @@
 .books{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 .books >div{
   border: 1px solid #ccc;
   margin: 10px;
   padding: 10px;
-  width: 200px;
+  width: 400px;
   text-align: center;
+  backdrop-filter: blur(5px);
+  border-color: black;
+  
 }
 .search{
-  align-content: center;
+  margin:auto;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+*{
+  font-family: 'Arial', sans-serif;
+  font-size: large;
+}
+body{
+  background-color: #f0f0f0;
+  background-image: url('https://wallpapers.com/images/hd/pile-of-books-on-blue-background-3gp0wweu63urx8eg.jpg');
 }

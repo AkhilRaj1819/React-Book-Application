@@ -2,7 +2,7 @@ import React from 'react';
 
 const Books = ({ books }) => {
   return (
-    <div>
+    <div className='books-container'>
         <div className='books'>
       {books.map((ele, index) => (
         <div key={index}>
